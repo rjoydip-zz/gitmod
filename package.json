@@ -1,0 +1,47 @@
+{
+  "name": "clone-repo-cli",
+  "version": "0.0.1",
+  "description": "Cli for clone github repo for the project",
+  "main": "index.js",
+  "bin": {
+    "clone-repo": "./bin/cli.js"
+  },
+  "repository": "rjoydip/is-installed-on-system",
+  "author": {
+    "name": "Joydip Roy",
+    "email": "joydipand@gmail.com"
+  },
+  "engines": {
+    "node": ">=4"
+  },
+  "files": [
+    "index.js"
+  ],
+  "scripts": {
+    "start": "node index",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^2.15.1",
+    "cross-spawn": "^6.0.5",
+    "fs-extra": "^5.0.0",
+    "mkdirp": "^0.5.1",
+    "nodegit": "^0.21.2",
+    "object.omit": "^3.0.0",
+    "path-key": "^2.0.1",
+    "read-pkg": "^3.0.0",
+    "write-json-file": "^2.3.0",
+    "write-pkg": "^3.1.0"
+  },
+  "devDependencies": {
+    "ava": "^0.25.0",
+    "execa": "^0.10.0"
+  },
+  "readme": "ERROR: No README data found!",
+  "_id": "clone-repo@1.0.0",
+  "cloneDependencies": {
+    "write-json-file": "0.0.0"
+  }
+}
