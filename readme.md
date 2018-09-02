@@ -40,4 +40,4 @@ Commands:
 
 ## License
 
-Copyright (c)  [Joydip Roy](https://github.com/rjoydip) (Rjoydip) <joydipand@gmail.com>
+Copyright (c)  [Joydip Roy (rjoydip)](https://github.com/rjoydip) <joydipand@gmail.com>
