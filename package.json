@@ -24,8 +24,8 @@
     "start": "node index",
     "lint": "./node_modules/.bin/eslint **/*.js --ignore-path .gitignore",
     "clean": "rm -rf node_modules && npm i",
-		"build": "npm run uninstall -g gitmod && npm i -g .",
-		"setup": "npm run build",
+    "build": "npm run uninstall -g gitmod && npm i -g .",
+    "setup": "npm run build",
     "precommit": "npm run lint"
   },
   "keywords": [],
@@ -33,9 +33,7 @@
   "dependencies": {
     "chalk": "^2.4.1",
     "commander": "^2.15.1",
-    "isomorphic-git": "^0.35.0",
     "ora": "^3.0.0",
-    "read-pkg": "^4.0.1",
     "shelljs": "^0.8.2"
   },
   "devDependencies": {
