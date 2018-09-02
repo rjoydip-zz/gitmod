@@ -4,7 +4,7 @@
   "description": "Cli for installing github repository in your project",
   "main": "index.js",
   "bin": {
-    "gitmod": "gitmod.js"
+    "gitmod": "./gitmod.js"
   },
   "repository": {
     "type": "git",
