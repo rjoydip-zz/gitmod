@@ -1,34 +1,43 @@
-# clone-repo-cli
+# gitmod
 
-> Cli for clone github repo for the project
+[![Build Status](https://travis-ci.org/rjoydip/gitmod.svg?branch=master)](https://travis-ci.org/rjoydip/gitmod)
+[![License](https://img.shields.io/npm/l/make-coverage-badge.svg)](https://github.com/rjoydip/gitmod/blob/master/license)
+
+> Cli for installing github repository in your project
 
 ## Install
 
 ```sh
-$ git clone https://github.com/rjoydip/clone-repo-cli.git
-$ cd clone-repo-cli
-$ npm install
-$ npm i -g .
+$ git clone https://github.com/rjoydip/gitmod.git
+$ cd gitmod
+$ npm run setup
+```
+
+or
+
+```sh
+$ npm i -g rjoydip/gitmod
 ```
 
 ## Usage
 
 ```sh
-$ clone-repo --help
+Usage: gitmod [options] [command]
 
-  Usage: index [options] [command]
+Options:
 
-  Options:
+	-v, --version                    output the version number
+	-h, --help                       output usage information
 
-    -V, --version               output the version number
-    -h, --help                  output usage information
+Commands:
 
-  Commands:
-
-    clone [options] <repo>
-    uninstall [options] <repo>
+	install [options] <repo> [type]
+	uninstall [options] <repo>
+	remove [options] <repo>
 ```
+
+> Note: This module isn't exists in npm. You could try it by locally.
 
 ## License
 
-MIT © [Joydip Roy](https://github.com/rjoydip)
+Copyright (c)  [Joydip Roy](https://github.com/rjoydip) (Rjoydip) <joydipand@gmail.com>
